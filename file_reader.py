@@ -94,7 +94,7 @@ def main():
     if os.path.isfile(file_name):
         f = open(file_name, 'r')
         print("file_name:", args.file_name)
-        persons_data = []#cretion list
+        persons_data = []#cretion list 
         for line in f:
             # read line and remove '\n' symbol
             line = line[:-1]
@@ -133,5 +133,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-#[[n,s,a,j],[n,s,a,j],[n,s,a,j]]
-#[[nnnnnn],[sssssss],]
